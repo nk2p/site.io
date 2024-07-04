@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+body{
+	background-color: lightskyblue;
+	 font-family: "Caveat", cursive;
+}
+p{
+	font-size: 50px;
+	
+	 background-color: blue;
+}
+.p1{
+	display: inline-block;
+}
+.s1{
+	border: dotted 3px lightskyblue;
+	display: block;
+}
+#first{
+		width: 500px;
+	height: 500px;
+	border: ridge 20px blue;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-left: dotted whitesmoke;
+	border-right: dashed white;
+	border-bottom: groove darkblue;
+	border-top: ridge blue;
+	border-width: 20px;
+	margin: 50px;
+}
+#second{
+	width: 700px;
+		height: 700px;
+		border: groove 20px black;
+		font-size: 50px ;
+		text-align: center;
+		padding: 50px;
+		border-style: dotted dashed ;
+	border-color: dimgray blue;
+}
+#third,#forth{
+	width: 800px;
+	height: 200px;
+	border: doshed 10px green;
+	margin: 20px;
+	border: dotted;
+
+}
+}
+#fifth{
+	width: 600px;
+	height: 500px;
+	padding: 20px;
+	padding-left: 30px;
+	text-align: center;
+	border: ridge 20px plum;
+	margin: 40px;
+	font-size: 30px;
+}
+#fifth{
+	width: 600px;
+	height: 500px;
+	padding: 20px;
+	padding-left: 30px;
+	text-align: center;
+	border: ridge 20px plum;
+	margin: 40px;
+	font-size: 30px;
+}
+#sixth{
+	width: 500px;
+	height: 400px;
+	padding: 20px;
+	padding-left: 30px;
+	text-align: center;
+	border: ridge 20px purple;
+	font-size: 30px;
+}
+#seventh{
+	width: 400px;
+	height: 300px;
+	padding: 20px;
+	padding-left: 30px;
+	text-align: center;
+	border: ridge 20px darkviolet;
+	font-size: 30px;
+}
+@media only screen and (max-width:800px){
+  nav,main,aside, .overlay{
+    width: 100%;
+  }
+}

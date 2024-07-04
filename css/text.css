@@ -1,0 +1,59 @@
+body{
+	background-color: navy;
+}
+h1{
+	font-weight: 400;
+	text-align: center;
+	font-family: "Kelly Slab", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+p{
+	text-indent: 24px;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: "Shantell Sans", cursive;
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+	word-spacing: 5px;
+}
+h2, h3, h4{
+	font-family: "Shantell Sans", cursive;
+	margin-left: 20px;
+}
+#img1{
+	float: left;
+	margin-right: 20px;
+}
+figure{
+	border: solid 1px gray;
+	padding: 5px;
+}
+figure.right{
+	float: right;
+	
+}
+figure.left{
+float: left;
+}
+a{
+	font-family: "Kelly Slab", sans-serif;
+	font-size: 25px;
+
+}
+
+.i2{
+	font-size: 25px;
+	font-family: "Shantell Sans", cursive;
+}
+@media only screen and (max-width:800px){
+  nav,main,aside, .overlay{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:800px){
+  nav,main,aside, .overlay{
+    width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+body{
+background-color: lightblue;
+}
+ul,ol,dl{
+	color: forestgreen;
+	font-size: 20px;
+	text-shadow: 0px 0px 10px white;
+	margin: 10px;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	border: ridge 20px violet;
+}
+.l1, .l4 li{
+	padding-left: 10px;
+}
+.l2 li::marker{
+	color: red;
+	font-size: 1.2em;
+}
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 🐣;
+  suffix: " ";
+}
+
+ul.l3 {
+  list-style: circled-digits;
+}
+@counter-style ukr-letters {
+  system: cyclic;
+  symbols: а б в г  ;
+  suffix: ")";
+}
+
+ol.l4 {
+  list-style: ukr-letters ;
+
+}
+.l5{
+	background-color: purple;
+	width: 200px;
+}
+.l5 li{
+	background-color: yellow;
+}
